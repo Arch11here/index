@@ -1,0 +1,60 @@
+$color: lightblue;
+.key-features {
+  color: $color;
+}
+div {
+  ol {
+    color: $color;
+  }
+  ul {
+    color: $color;
+  }
+}
+%textarea {
+  margin-left: 0px;
+  float: left;
+}
+.container {
+      @extend %textarea;
+       max-width: 820px;
+       margin: 0px auto;
+       margin-top: 50px;
+       }
+
+.comment {
+     @extend %textarea;
+     width: 100%;
+     height: auto;
+ }
+
+.commenter {
+    @extend %textarea;
+       }
+.commenter img {
+    @extend %textarea;
+    width: 35px;
+    height: 35px;
+       }
+
+.comment-text-area {
+    @extend %textarea;
+    width: 100%;
+    height: auto;
+       }
+.textinput {
+    @extend %textarea;
+    width: 100%;
+    min-height: 75px;
+    border: 1px solid grey;
+    outline: none;
+    resize: none;
+
+       }
+.submit {
+  margin-top: 10%;
+  background-color: red;
+  color: white;
+}
+.submit:hover {
+  color: grey;
+}
